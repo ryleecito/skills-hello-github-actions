@@ -5,8 +5,6 @@ on:
 permissions:
   pull-requests: write
 jobs:
-  post-welcome-comment: # <--- Change 'build' to the expected name
+  build: # <--- Este es el nombre del job que se espera en este paso
     name: Post welcome comment
     runs-on: ubuntu-latest
-
-      # You will likely add steps here later in the exercise
